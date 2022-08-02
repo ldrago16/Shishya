@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <layer-list>
+            <item android:gravity="center">
+                <bitmap android:src="@drawable/selected_note_icon" android:gravity="center"/>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_enabled="true">
+        <layer-list>
+            <item  android:gravity="center">
+                <bitmap android:src="@drawable/deselected_note_icon" android:gravity="center"/>
+            </item>
+        </layer-list>
+    </item>
+</selector>
